@@ -1,14 +1,6 @@
+import "./globals";
 import * as fs from "fs";
 import * as path from "path";
-
-require.extensions['.html'] = function (module, filename) {
-    module.exports = fs.readFileSync(filename, 'utf8');
-};
-
-require.extensions['.css'] = function (module, filename) {
-    module.exports = fs.readFileSync(filename, 'utf8');
-};
-
 import "reflect-metadata";
 import "zone.js";
 import * as express from "express";
