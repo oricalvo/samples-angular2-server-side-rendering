@@ -1,1 +1,1 @@
-# angular2-min-seed
+# Samples/Angular2/Server Side Rendering
