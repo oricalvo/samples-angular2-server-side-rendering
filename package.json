@@ -23,6 +23,7 @@
     "reflect-metadata": "^0.1.8",
     "rxjs": "^5.0.3",
     "systemjs-plugin-text": "^0.0.9",
+    "t-rex": "^1.0.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

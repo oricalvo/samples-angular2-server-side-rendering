@@ -1,26 +1,14 @@
 <div class="header">
     <span class="logo">Angular 2 Min Seed</span>
-    <!--<my-clock></my-clock>-->
+    <my-clock></my-clock>
 </div>
 
 <div class="content">
-    <p>A minimal Angular2 project that integrates only the following aspects</p>
-
     <ul>
-        <li>
-            Typescript compilation
-        </li>
-        <li>
-            SASS compilation
-        </li>
-        <li>
-            Simple execution using "npm start"
+        <li *ngFor="let contact of contacts">
+            <span>{{contact.name}}</span>
         </li>
     </ul>
-
-    <p>No webpack, no E2E, no AOT, just Angular !!!</p>
-
-    <input [(ngModel)]="name" autofocus>
 
     <button (click)="sayHello()">Say Hello</button>
 </div>
@@ -28,3 +16,7 @@
 <div class="footer">
     Ori Calvo @2017
 </div>
+
+<script type="application/state">
+    {{appState}}
+</script>
